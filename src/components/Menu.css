@@ -1,0 +1,152 @@
+.menu-section {
+  background: #faeada;
+  padding: 48px 80px;
+  max-width: 1100px;
+  margin: 0 auto;
+  border-bottom: 1px solid #e2cfc3;
+}
+.menu-list {
+  display: flex;
+  gap: 48px;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+}
+.menu-list div {
+  min-width: 220px;
+}
+.menu-list h3 {
+  color: #e00914;
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+.menu-list ul {
+  margin: 0 0 12px 0;
+  padding-left: 18px;
+}
+.menu-list li {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+.menu-list h4 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #e00914;
+}
+.menu-layout {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.menu-title-vertical {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size:10rem;
+  font-weight: bold;
+  color: #e00914;
+  letter-spacing: 0.18em;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin-right: 56px;
+  line-height: 1.05;
+  flex-shrink: 0;
+}
+.menu-alma-block.alma-relative {
+  position: relative;
+  border: 2px solid #e00914;
+  border-radius: 16px;
+  padding: 40px 32px 56px 32px;
+  background: #faeada;
+  min-height: 420px;
+  width: 72%;
+  box-sizing: border-box;
+}
+.menu-alma-block {
+  width: 100%;
+}
+.menu-alma-block h3 {
+  color: #e00914;
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+.menu-alma-block ul {
+  margin: 0 0 12px 0;
+  padding-left: 18px;
+  list-style: none;
+}
+.menu-alma-block li {
+  font-size: 1rem;
+  margin-bottom: 2px;
+  color: #e00914;
+}
+.menu-alma-block h4 {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #e00914;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.menu-alma-block p {
+  font-size: 1rem;
+  color: #e00914;
+  margin-bottom: 0;
+  margin-top: 10px;
+  padding-left: 18px;
+}
+.menu-nanci-block {
+  position: absolute;
+  top: -48px;
+  right: -240px;
+  background: #faeada;
+  border: 2px solid #e00914;
+  border-radius: 12px;
+  padding: 18px 32px 18px 32px;
+  width: 280px;
+  z-index: 2;
+  box-sizing: border-box;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+.menu-nanci-block h3 {
+  color: #e00914;
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+.menu-nanci-block ul {
+  margin: 0;
+  list-style: none;
+  padding-left:18px;
+}
+.menu-nanci-block li {
+  font-size: 1rem;
+  margin-bottom: 2px;
+  color: #e00914;
+}
+.menu-download-cta {
+  position: absolute;
+  top: 310px;
+  right: -240px;
+  z-index: 2;
+  display: block;
+}
+.menu-download-cta img {
+  width: 230px;
+  height: auto;
+  display: block;
+}
+.menu-extra-text {
+  margin-top: 32px;
+  color: #e00914;
+  font-size: 1.08rem;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-weight: bold;
+  text-align: left;
+  max-width: 100%;
+  width: 63%;
+  box-sizing: border-box;
+  line-height: 1.2;
+} 
