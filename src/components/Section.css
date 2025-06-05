@@ -1,7 +1,5 @@
 .section {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 5px 80px;
+  padding: 5px 10px;
   background: #faeada;
   /* border-bottom: 1px solid #e2cfc3; */
   color: #e00914;
