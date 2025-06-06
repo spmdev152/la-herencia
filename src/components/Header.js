@@ -3,7 +3,7 @@ import './Header.css'
 
 function Header() {
   return (
-    <header className="header-container">
+    <header className="header-container hero-container">
       <div className="header-top-lines">
         <div className="header-line header-line-1"></div>
         <div className="header-line header-line-2"></div>
@@ -13,13 +13,13 @@ function Header() {
         alt="Alma de Feria"
         initial={{ scale: 1.3, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
-        transition={{ type: 'spring', stiffness: 300, damping: 20, delay: 0 }}
+        transition={{ type: 'spring', stiffness: 180, damping: 24, delay: 0.2, duration: 1.5 }}
         className="logo-alma-img"
       />
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 1.2, duration: 0.5 }}
+        transition={{ delay: 1.5, duration: 0.7 }}
         className="event-info-bar"
       >
         <div className="event-info-left">

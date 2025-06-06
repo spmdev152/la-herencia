@@ -156,6 +156,11 @@
     align-items: stretch;
     padding: 0;
   }
+  .menu-layout .cta-img{
+    position: relative;
+    right: 0;
+    top: 0;
+  }
   .menu-title-vertical {
     writing-mode: unset;
     text-orientation: unset;
